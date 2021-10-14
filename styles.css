@@ -1,0 +1,120 @@
+.kek { color: #1DB9C3;}
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono', monospace;
+}
+.logo-img {
+  margin-top: 100px;
+}
+.body-div{
+  box-shadow:  0 0 8px #DDBEBE;
+  background-color: hsl(0, 0%, 100%);
+  padding: 3% 5% 3% 10%;
+  margin: 80px 200px 70px;
+  border-radius: 3%;
+}
+.tip-selector{
+  padding-left: 0;
+}
+
+.icon {
+  padding-right: 1%;
+}
+
+.btn {
+  color: hsl(189, 41%, 97%);
+  background-color: hsl(183, 100%, 15%);
+}
+.btn:hover {
+  background-color: hsl(172, 67%, 45%);
+}
+.form-floating {
+  display: inline-block;
+  margin-top: 6%;
+
+}
+.btn-percentage{
+  margin: 20px;
+}
+.form-control {
+color: #fff;
+  width: 40%;
+background-color:hsl(183, 100%, 15%);
+
+}
+.form-control:hover {
+  background-color: hsl(172, 67%, 45%);
+}
+.form-control:focus {
+  background-color: hsl(172, 67%, 45%);
+}
+
+.label {
+color: hsl(189, 41%, 97%);
+}
+input {
+  color:green;
+}
+
+
+.tip-calculator {
+box-shadow: 0 0 12px  hsl(183, 100%, 15%);
+    padding: 5% 5% 7%;
+  border-radius: 3%;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.tip-calculator h1 {
+  color: hsl(172, 67%, 45%);
+}
+.tip-calculator h5 {
+  color: hsl(189, 41%, 97%);
+}
+.tip-calculator p {
+  color: hsl(184, 14%, 56%);
+}
+
+.btn-reset {
+
+  background-color: hsl(172, 67%, 45%);
+  width: 90%;
+}
+.btn-reset:hover {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.tip-description {
+  display: inline-block;
+}
+
+.tip-value {
+  display: inline-block;
+}
+
+.tip-value #tipAmountValue {
+  margin-left: 11px;
+}
+
+.tip-value #tipTotalValue {
+  margin-left: 55px;
+}
+
+.attribution {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 5%;
+
+ }
+.attribution a { color: hsl(172, 67%, 45%);
+text-decoration: none;}
+
+
+
+
+
+/* Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) */
