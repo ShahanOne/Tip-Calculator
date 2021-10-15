@@ -10,8 +10,9 @@ body {
   box-shadow:  0 0 8px #DDBEBE;
   background-color: hsl(0, 0%, 100%);
   padding: 3% 5% 3% 10%;
-  margin: 80px 200px 70px;
+  margin: 80px 200px 70px  ;
   border-radius: 3%;
+  width: auto;
 }
 .tip-selector{
   padding-left: 0;
@@ -109,9 +110,36 @@ box-shadow: 0 0 12px  hsl(183, 100%, 15%);
 text-decoration: none;}
 
 
+@media (max-width: 1000px) {
+  .body-div{
+    padding-left: 5%;
+margin: 80px 0 100px ;
+  border-radius: 5%;
+  }
+.tip-calculator{
+  margin-top: 7%;
+  padding: 5% 5% 7% 3%;
+}
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Color Picker */
 /* Very dark cyan: hsl(183, 100%, 15%)
 - Dark grayish cyan: hsl(186, 14%, 43%)
 - Dark grayish cyan: hsl(184, 14%, 56%)
