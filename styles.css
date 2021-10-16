@@ -1,4 +1,4 @@
-.kek { color: #1DB9C3;}
+.kek { color: #950101;}
 body {
   background-color: hsl(185, 41%, 84%);
   font-family: 'Space Mono', monospace;
@@ -57,6 +57,13 @@ input {
   color:green;
 }
 
+.tick-btn {
+  background-color: hsl(172, 67%, 45%);
+}
+.tick-btn:hover{
+  background-color: hsl(183, 100%, 15%);
+  color: #fff;
+}
 
 .tip-calculator {
 box-shadow: 0 0 12px  hsl(183, 100%, 15%);
@@ -76,7 +83,7 @@ box-shadow: 0 0 12px  hsl(183, 100%, 15%);
 }
 
 .btn-reset {
-
+margin-top: 28%;
   background-color: hsl(172, 67%, 45%);
   width: 90%;
 }
@@ -100,6 +107,8 @@ box-shadow: 0 0 12px  hsl(183, 100%, 15%);
   margin-left: 55px;
 }
 
+
+
 .attribution {
   font-size: 2rem;
   text-align: center;
@@ -111,14 +120,28 @@ text-decoration: none;}
 
 
 @media (max-width: 1000px) {
+
   .body-div{
+    text-align: center;
     padding-left: 5%;
 margin: 80px 0 100px ;
   border-radius: 5%;
   }
+
+  table{
+  margin-left: 27%;
+  }
+
+.btn-15-td{
+  padding-right: 45%;
+}
+
 .tip-calculator{
   margin-top: 7%;
   padding: 5% 5% 7% 3%;
+}
+.btn-reset{
+  margin-top: 0;
 }
 }
 
